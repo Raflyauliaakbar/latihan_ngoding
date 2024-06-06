@@ -1,0 +1,137 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+#projects {
+    background-color: #e2edff; 
+}
+
+section {
+    padding-top: 5rem;
+}
+#Home {
+    padding-top:0;
+}
+.social-icon {
+    font-size: 48px;
+}
+.OutBox {
+    width: 350px;
+    height: 25px;
+    margin-left: 23px;
+    margin-right: 15px;
+    margin-top: 4px;
+    border-radius: 10px;
+    background:black;
+}
+.OutBox2 {
+    width: 350px;
+    height: 25px;
+    margin-left: 37px;
+    margin-right: 15px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background:black;
+}
+.OutBox3 {
+    width: 350px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background:black;
+}
+.OutBox4 {
+    width: 350px;
+    height: 25px;
+    margin-left: 50px;
+    margin-right: 15px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background:black;
+}
+.OutBox5 {
+    width: 350px;
+    height: 25px;
+    margin-left: 36px;
+    margin-right: 15px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background:black;
+}
+.InnerBox {
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+    background:linear-gradient(45deg, #1d8eeb, #3bc564); 
+    animation: HTML 4s ease-in-out forwards;
+}
+.InnerBox2 {
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+    background:linear-gradient(45deg, #1d8eeb, #3bc564); 
+    animation: CSS 4s ease-in-out forwards;
+}
+.InnerBox3 {
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+    background:linear-gradient(45deg, #1d8eeb, #3bc564); 
+    animation: Python 4s ease-in-out forwards;
+}
+.InnerBox4 {
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+    background:linear-gradient(45deg, #1d8eeb, #3bc564); 
+    animation: JS 4s ease-in-out forwards;
+}
+.InnerBox5 {
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+    background:linear-gradient(45deg, #1d8eeb, #3bc564); 
+    animation: PHP 4s ease-in-out forwards;
+}
+@keyframes HTML{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes CSS{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 35%;
+    }
+}
+@keyframes Python{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes JS{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 20%;
+    }
+}
+@keyframes PHP{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 46%;
+    }
+}
