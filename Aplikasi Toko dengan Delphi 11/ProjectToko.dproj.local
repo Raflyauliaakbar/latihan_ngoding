@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00.00.00.000.701,=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.675,C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Ucetak.pas=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.471,C:\Users\SSD TURBO_BC\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Umenuutama.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.061,=C:\Users\SSD TURBO_BC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.679,=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.439,C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit1.pas=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Ubarangmasuk.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.911,C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit1.pas=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Ustok.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.439,=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.255,=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.911,C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit1.dfm=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Ustok.dfm</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.576,C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Ubrangkeluar.pas=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit2.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.936,=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit2.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.576,C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Ubrangkeluar.dfm=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit2.dfm</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.439,C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit1.dfm=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Ubarangmasuk.dfm</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.894,=C:\Users\SSD TURBO_BC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.471,C:\Users\SSD TURBO_BC\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Umenuutama.dfm</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.696,C:\Users\SSD TURBO_BC\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\ProjectToko.dproj</Transaction>
+    <Transaction>1899/12/30 00.00.00.000.675,C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Ucetak.dfm=C:\Users\SSD TURBO_BC\Downloads\Tugas Kuliah\Smester 4\Visual 2\Toko\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

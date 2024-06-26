@@ -1,0 +1,41 @@
+unit Ustok;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Data.Win.ADODB, Vcl.StdCtrls,
+  Vcl.Mask, Vcl.ExtCtrls, Vcl.DBCtrls, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TForm1 = class(TForm)
+    TabelStok: TADOTable;
+    TabelStokkode_barang: TWideStringField;
+    TabelStoknama_barang: TWideStringField;
+    TabelStokjenis_barang: TWideStringField;
+    TabelStokstok: TWideStringField;
+    Label1: TLabel;
+    DBEdit1: TDBEdit;
+    DsStok: TDataSource;
+    Label2: TLabel;
+    DBEdit2: TDBEdit;
+    Label3: TLabel;
+    DBEdit3: TDBEdit;
+    Label4: TLabel;
+    DBEdit4: TDBEdit;
+    DBGrid1: TDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+uses Umenuutama, Ubarangmasuk;
+
+{$R *.dfm}
+
+end.

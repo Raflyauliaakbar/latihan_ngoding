@@ -1,0 +1,92 @@
+unit Ubrangkeluar;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Data.Win.ADODB, System.Rtti,
+  System.Bindings.Outputs, Vcl.Bind.Editors, Data.Bind.EngExt,
+  Vcl.Bind.DBEngExt, Data.Bind.Components, Data.Bind.DBScope, Vcl.ComCtrls,
+  Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls, Vcl.DBCtrls, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TFormBarangKeluar = class(TForm)
+    TabelBarangKeluar: TADOTable;
+    TabelBarangKeluarid_barang_keluar: TAutoIncField;
+    TabelBarangKeluarkode_barang: TWideStringField;
+    TabelBarangKeluarnama_barang: TWideStringField;
+    TabelBarangKeluarjenis_barang: TWideStringField;
+    TabelBarangKeluarjumlah: TWideStringField;
+    TabelBarangKeluartgl_keluar: TDateField;
+    DataSource1: TDataSource;
+    Label2: TLabel;
+    DBEdit2: TDBEdit;
+    Label3: TLabel;
+    DBEdit3: TDBEdit;
+    Label4: TLabel;
+    DBEdit4: TDBEdit;
+    Label5: TLabel;
+    DBEdit5: TDBEdit;
+    Label6: TLabel;
+    DateTimePicker1: TDateTimePicker;
+    BindSourceDB1: TBindSourceDB;
+    BindingsList1: TBindingsList;
+    LinkControlToField1: TLinkControlToField;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    Button6: TButton;
+    DBGrid1: TDBGrid;
+    procedure Button6Click(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormBarangKeluar: TFormBarangKeluar;
+
+implementation
+uses Umenuutama;
+
+{$R *.dfm}
+
+procedure TFormBarangKeluar.Button1Click(Sender: TObject);
+begin
+TabelBarangKeluar.Insert;
+end;
+
+procedure TFormBarangKeluar.Button2Click(Sender: TObject);
+begin
+FormBarangKeluar.Close;
+end;
+
+procedure TFormBarangKeluar.Button3Click(Sender: TObject);
+begin
+TabelBarangKeluar.Cancel;
+end;
+
+procedure TFormBarangKeluar.Button4Click(Sender: TObject);
+begin
+TabelBarangKeluar.Delete;
+end;
+
+procedure TFormBarangKeluar.Button5Click(Sender: TObject);
+begin
+TabelBarangKeluar.Edit;
+end;
+
+procedure TFormBarangKeluar.Button6Click(Sender: TObject);
+begin
+    TabelBarangKeluar.Post;
+end;
+
+end.
